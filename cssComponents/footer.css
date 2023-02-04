@@ -1,0 +1,29 @@
+footer {
+    text-align: center;
+
+}
+
+footer>p {
+    color: #6e6e6e;
+    height: 50px;
+}
+
+.navheadFooter {
+    margin: 0 auto;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    max-width: 920px;
+    padding-bottom: 10px;
+    border-bottom: 0.5px solid #d0d0d0;
+}
+
+.navheadFooter>a {
+    transition: 0.5s;
+    text-decoration: none;
+    color: #6e6e6e;
+}
+
+.navheadFooter>a:hover {
+    color: #1d1d1d;
+}

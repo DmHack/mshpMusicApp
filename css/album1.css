@@ -1,0 +1,99 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+
+.wrapper {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+/* MAIN */
+main {
+    display: flex;
+    flex: 1 1 auto;
+    text-align: center;
+}
+
+.cardFon {
+    width: 200px;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.cardInfo {
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+    justify-content: space-between;
+}
+
+.cardInfo>div>h1 {
+    font-size: 20px;
+}
+
+.pGodInfo {
+    color: #6e6e6e;
+}
+
+.card {
+    display: flex;
+    gap: 50px;
+    border: 1px solid #cacaca;
+    max-height: 200px;
+    border-radius: 5px;
+    margin-right: 200px;
+    -webkit-box-shadow: 0 0 10px rgb(202, 202, 202);
+    -moz-box-shadow: 0 0 10px rgb(201, 201, 201);
+    box-shadow: 0 0 10px rgb(191, 191, 191);
+}
+
+
+.listGroup {
+    border: 1px solid #cacaca;
+    border-radius: 5px;
+    height: 500px;
+    -webkit-box-shadow: 0 0 10px rgb(202, 202, 202);
+    -moz-box-shadow: 0 0 10px rgb(201, 201, 201);
+    box-shadow: 0 0 10px rgb(191, 191, 191);
+}
+
+.stMs {
+    width: 25px;
+}
+
+.lstGpMs {
+    border-bottom: 1px solid #cacaca;
+    display: flex;
+    width: 500px;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px 0px 10px;
+    transition: 0.5s;
+}
+
+.lstGpMs:hover {
+    -webkit-box-shadow: 0 0 20px rgb(225, 255, 0);
+    -moz-box-shadow: 0 0 20px rgb(199, 218, 57);
+    box-shadow: 0 0 20px rgb(225, 255, 0);
+}
+
+.musicInfo {
+    margin-left: -300px;
+}
+
+.musicInfo>p {
+    font-size: 14px;
+}
+
+.pAuthor {
+    color: #6e6e6e;
+}
