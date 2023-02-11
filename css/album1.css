@@ -21,6 +21,7 @@ main {
     display: flex;
     flex: 1 1 auto;
     text-align: center;
+    flex-wrap: wrap;
 }
 
 .cardFon {
@@ -37,6 +38,12 @@ main {
 
 .cardInfo>div>h1 {
     font-size: 20px;
+
+}
+
+.cardInfo>div {
+    word-wrap: break-word;
+    overflow-x: hidden;
 }
 
 .pGodInfo {
@@ -96,4 +103,230 @@ main {
 
 .pAuthor {
     color: #6e6e6e;
+}
+
+
+@media (max-width: 1311px) {
+    main {
+        justify-content: center;
+    }
+
+    .card {
+        margin-right: 20px;
+    }
+}
+
+@media (max-width: 1131px) {
+    main {
+        margin-bottom: 50px;
+    }
+
+    .card {
+        margin-bottom: 20px;
+        margin-right: 0px;
+    }
+}
+
+@media (max-width: 1131px) {
+    main {
+        margin-bottom: 50px;
+    }
+
+    .card {
+        margin-bottom: 20px;
+        margin-right: 20px;
+    }
+}
+
+@media (max-width: 1110px) {
+    main {
+        margin-bottom: 50px;
+    }
+
+    .card {
+        margin-bottom: 20px;
+        margin-right: 0px;
+    }
+}
+
+@media (max-width: 600px) {
+    main {
+        justify-content: center;
+        margin-bottom: 50px;
+    }
+
+    .card {
+        margin-bottom: 20px;
+        gap: 20px;
+        max-height: 180px;
+        margin-right: 0px;
+        width: 530px;
+    }
+
+    .cardFon {
+        width: 180px;
+    }
+}
+
+@media (max-width: 545px) {
+    .card {
+        margin-bottom: 20px;
+        gap: 10px;
+        max-height: 170px;
+        width: 500px;
+    }
+
+    .cardFon {
+        width: 170px;
+    }
+
+    .listGroup {
+        width: 500px;
+    }
+
+    .lstGpMs {
+        width: 470px;
+    }
+}
+
+@media (max-width: 520px) {
+    .card {
+        max-height: 130px;
+        width: 400px;
+    }
+
+    .cardFon {
+        width: 130px;
+    }
+
+    .listGroup {
+        width: 400px;
+    }
+
+    .lstGpMs {
+        width: 370px;
+    }
+
+    .musicInfo {
+        margin-left: -200px;
+    }
+
+}
+
+@media (max-width: 485px) {
+    .card {
+        max-height: 140px;
+        width: 400px;
+    }
+
+    .cardInfo>div>h1 {
+        font-size: 17px;
+    }
+
+    .cardInfo>div>p {
+        font-size: 13px;
+    }
+
+    .cardFon {
+        width: 140px;
+    }
+
+}
+
+@media (max-width: 425px) {
+    .card {
+        width: 380px;
+    }
+
+    .listGroup {
+        width: 380px;
+    }
+
+    .lstGpMs {
+        width: 350px;
+    }
+
+    .musicInfo {
+        margin-left: -170px;
+    }
+
+}
+
+@media (max-width: 405px) {
+    .card {
+        width: 350px;
+    }
+
+    .listGroup {
+        width: 350px;
+    }
+
+    .lstGpMs {
+        width: 320px;
+    }
+
+    .musicInfo {
+        margin-left: -140px;
+    }
+
+}
+
+@media (max-width: 370px) {
+    .card {
+        width: 330px;
+    }
+
+
+    .listGroup {
+        width: 330px;
+    }
+
+    .lstGpMs {
+        width: 300px;
+    }
+
+    .musicInfo {
+        margin-left: -120px;
+    }
+
+}
+
+@media (max-width: 345px) {
+    .card {
+        width: 300px;
+    }
+
+
+    .listGroup {
+        width: 300px;
+    }
+
+    .lstGpMs {
+        width: 270px;
+    }
+
+    .musicInfo {
+        margin-left: -90px;
+    }
+
+}
+
+@media (max-width: 310px) {
+    .card {
+        width: 270px;
+    }
+
+
+    .listGroup {
+        width: 270px;
+    }
+
+    .lstGpMs {
+        width: 240px;
+    }
+
+    .musicInfo {
+        margin-left: -60px;
+    }
+
 }

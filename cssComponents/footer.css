@@ -16,6 +16,8 @@ footer>p {
     max-width: 920px;
     padding-bottom: 10px;
     border-bottom: 0.5px solid #d0d0d0;
+    flex-wrap: wrap;
+
 }
 
 .navheadFooter>a {
@@ -26,4 +28,12 @@ footer>p {
 
 .navheadFooter>a:hover {
     color: #1d1d1d;
+}
+
+
+
+@media (max-width: 375px) {
+    .navheadFooter {
+        gap: 10px;
+    }
 }
