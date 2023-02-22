@@ -1,0 +1,39 @@
+footer {
+    text-align: center;
+
+}
+
+footer>p {
+    color: #6e6e6e;
+    height: 50px;
+}
+
+.navheadFooter {
+    margin: 0 auto;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    max-width: 920px;
+    padding-bottom: 10px;
+    border-bottom: 0.5px solid #797979;
+    flex-wrap: wrap;
+
+}
+
+.navheadFooter>a {
+    transition: 0.5s;
+    text-decoration: none;
+    color: #6e6e6e;
+}
+
+.navheadFooter>a:hover {
+    color: #bad412;
+}
+
+
+
+@media (max-width: 375px) {
+    .navheadFooter {
+        gap: 10px;
+    }
+}

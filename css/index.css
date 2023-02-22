@@ -1,0 +1,73 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    background-color: rgb(29, 29, 29);
+}
+
+.wrapper {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* HEADER */
+/* /cssComponents/header.css */
+
+
+/* MAIN */
+main {
+    flex: 1 1 auto;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.fonMs {
+    color: #cacaca;
+}
+
+.card {
+    border: 1px solid #cacaca;
+    border-radius: 5px;
+    background-color: #404040;
+    transition: 0.5s;
+    -webkit-box-shadow: 0 0 10px rgb(202, 202, 202);
+    -moz-box-shadow: 0 0 10px rgb(201, 201, 201);
+    box-shadow: 0 0 10px rgb(191, 191, 191);
+
+}
+
+.card>p {
+    color: rgb(199, 199, 199);
+
+}
+
+.card:hover {
+    border-radius: 5px;
+    -webkit-box-shadow: 0 0 30px rgb(225, 255, 0);
+    -moz-box-shadow: 0 0 30px rgb(199, 218, 57);
+    box-shadow: 0 0 30px rgb(225, 255, 0);
+}
+
+
+.cardFon {
+    width: 300px;
+    border-radius: 5px 5px 0px 0px;
+}
+
+
+/* FOOTER */
+
+/* /cssComponents/footer.css */

@@ -1,0 +1,364 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    background-color: rgb(29, 29, 29);
+}
+
+.wrapper {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+/* MAIN */
+main {
+    display: flex;
+    flex: 1 1 auto;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.cardFon {
+    width: 200px;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.cardInfo {
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+    justify-content: space-between;
+}
+
+.cardInfo>div>h1 {
+    font-size: 20px;
+
+}
+
+.cardInfo>div {
+    word-wrap: break-word;
+    overflow-x: hidden;
+}
+
+.pGodInfo {
+    color: #a4a4a4;
+}
+
+.card {
+    display: flex;
+    gap: 50px;
+    border: 1px solid #cacaca;
+    max-height: 200px;
+    border-radius: 5px;
+    margin-right: 200px;
+    background-color: #404040;
+    -webkit-box-shadow: 0 0 10px rgb(202, 202, 202);
+    -moz-box-shadow: 0 0 10px rgb(201, 201, 201);
+    box-shadow: 0 0 10px rgb(191, 191, 191);
+}
+
+.crdInf>p {
+    color: rgb(199, 199, 199);
+}
+
+.crdInf>h1 {
+    color: rgb(199, 199, 199);
+}
+
+
+.listGroup {
+    border: 1px solid #cacaca;
+    background-color: #404040;
+    border-radius: 5px;
+    height: 500px;
+    -webkit-box-shadow: 0 0 10px rgb(202, 202, 202);
+    -moz-box-shadow: 0 0 10px rgb(201, 201, 201);
+    box-shadow: 0 0 10px rgb(191, 191, 191);
+}
+
+.stMs {
+    width: 25px;
+    display: none;
+}
+
+.stMs1 {
+    width: 25px;
+    display: block;
+}
+
+.lstGpMs {
+    border-bottom: 1px solid #cacaca;
+
+    display: flex;
+    width: 500px;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px 0px 10px;
+    transition: 0.5s;
+}
+
+.lstGpMs:hover {
+    -webkit-box-shadow: 0 0 30px rgb(225, 255, 0);
+    -moz-box-shadow: 0 0 30px rgb(199, 218, 57);
+    box-shadow: 0 0 30px rgb(225, 255, 0);
+}
+
+.actvMs {
+    -webkit-box-shadow: 0 0 20px rgb(225, 255, 0);
+    -moz-box-shadow: 0 0 20px rgb(199, 218, 57);
+    box-shadow: 0 0 20px rgb(225, 255, 0);
+}
+
+.musicInfo {
+    margin-left: -300px;
+}
+
+.musicInfo>p {
+    font-size: 14px;
+}
+
+.pAuthor {
+    color: rgb(199, 199, 199);
+}
+
+.pTitle {
+    color: #b8b8b8;
+}
+
+.pTime {
+    color: rgb(223, 223, 223)
+}
+
+
+@media (max-width: 1311px) {
+    main {
+        justify-content: center;
+    }
+
+    .card {
+        margin-right: 20px;
+    }
+}
+
+@media (max-width: 1131px) {
+    main {
+        margin-bottom: 50px;
+    }
+
+    .card {
+        margin-bottom: 20px;
+        margin-right: 0px;
+    }
+}
+
+@media (max-width: 1131px) {
+    main {
+        margin-bottom: 50px;
+    }
+
+    .card {
+        margin-bottom: 20px;
+        margin-right: 20px;
+    }
+}
+
+@media (max-width: 1110px) {
+    main {
+        margin-bottom: 50px;
+    }
+
+    .card {
+        margin-bottom: 20px;
+        margin-right: 0px;
+    }
+}
+
+@media (max-width: 600px) {
+    main {
+        justify-content: center;
+        margin-bottom: 50px;
+    }
+
+    .card {
+        margin-bottom: 20px;
+        gap: 20px;
+        max-height: 180px;
+        margin-right: 0px;
+        width: 530px;
+    }
+
+    .cardFon {
+        width: 180px;
+    }
+}
+
+@media (max-width: 545px) {
+    .card {
+        margin-bottom: 20px;
+        gap: 10px;
+        max-height: 170px;
+        width: 500px;
+    }
+
+    .cardFon {
+        width: 170px;
+    }
+
+    .listGroup {
+        width: 500px;
+    }
+
+    .lstGpMs {
+        width: 470px;
+    }
+}
+
+@media (max-width: 520px) {
+    .card {
+        max-height: 130px;
+        width: 400px;
+    }
+
+    .cardFon {
+        width: 130px;
+    }
+
+    .listGroup {
+        width: 400px;
+    }
+
+    .lstGpMs {
+        width: 370px;
+    }
+
+    .musicInfo {
+        margin-left: -200px;
+    }
+
+}
+
+@media (max-width: 485px) {
+    .card {
+        max-height: 140px;
+        width: 400px;
+    }
+
+    .cardInfo>div>h1 {
+        font-size: 17px;
+    }
+
+    .cardInfo>div>p {
+        font-size: 13px;
+    }
+
+    .cardFon {
+        width: 140px;
+    }
+
+}
+
+@media (max-width: 425px) {
+    .card {
+        width: 380px;
+    }
+
+    .listGroup {
+        width: 380px;
+    }
+
+    .lstGpMs {
+        width: 350px;
+    }
+
+    .musicInfo {
+        margin-left: -170px;
+    }
+
+}
+
+@media (max-width: 405px) {
+    .card {
+        width: 350px;
+    }
+
+    .listGroup {
+        width: 350px;
+    }
+
+    .lstGpMs {
+        width: 320px;
+    }
+
+    .musicInfo {
+        margin-left: -140px;
+    }
+
+}
+
+@media (max-width: 370px) {
+    .card {
+        width: 330px;
+    }
+
+
+    .listGroup {
+        width: 330px;
+    }
+
+    .lstGpMs {
+        width: 300px;
+    }
+
+    .musicInfo {
+        margin-left: -120px;
+    }
+
+}
+
+@media (max-width: 345px) {
+    .card {
+        width: 300px;
+    }
+
+
+    .listGroup {
+        width: 300px;
+    }
+
+    .lstGpMs {
+        width: 270px;
+    }
+
+    .musicInfo {
+        margin-left: -90px;
+    }
+
+}
+
+@media (max-width: 310px) {
+    .card {
+        width: 270px;
+    }
+
+
+    .listGroup {
+        width: 270px;
+    }
+
+    .lstGpMs {
+        width: 240px;
+    }
+
+    .musicInfo {
+        margin-left: -60px;
+    }
+
+}
