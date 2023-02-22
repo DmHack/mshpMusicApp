@@ -32,6 +32,7 @@ if (!albumst) {
 
     for (let i = 0; i < albumst.tracks.length; i++) {
         let track = albumst.tracks[i];
+
         listGroup.innerHTML += `
         <div class="lstGpMs">
             <div>
@@ -39,8 +40,19 @@ if (!albumst) {
                 <img class="stMs1" src="../assets/fon/stMs.png" alt="">
             </div>
             <div class="musicInfo">
-                <p class="pTitle">${track.title}</p>
-                <p class="pAuthor">${track.author}</p>
+                <div class="msinfprog">
+                    <div class="infauthprog">
+                        <p class="pTitle">${track.title}</p>
+                        <p class="pAuthor">${track.author}</p>
+                    </div>
+                    <div>
+                        <div class="progressCont">
+                            <div id="progress" class="progress">
+
+                            </div>
+                        </div>  
+                    </div>
+                </div>              
             </div>
             <div>
                 <p class="pTime">${track.time}</p>
@@ -66,8 +78,12 @@ function setupAudio() {
         let timeNode = node.querySelector(`.pTime`);
         // Тег аудио внутри этого элемента
         let audio = node.querySelector(`.audio`);
+        let progress = node.querySelector(`.progress`);
         let track = tracks[i];
-
+        audio.ontimeupdate = function () {
+            console.log(audio.currentTime * 100 / audio.duration + "%");
+            progress.style.width = Math.floor(audio.currentTime * 100 / audio.duration) + "%";
+        }
         // продолжи самостоятельно
         node.addEventListener(`click`, function (e) {
             // Если трек сейчас играет...

@@ -9,21 +9,21 @@ let albums = [
             {
                 title: `Трек 1`,
                 author: `Автор 1`,
-                time: `6:00`,
+                time: `1:30`,
                 src: `../music/1.mp3`,
                 isPlaying: false
             },
             {
                 title: `Трек 2`,
                 author: `Автор 2`,
-                time: `6:00`,
+                time: `1:45`,
                 src: `../music/2.mp3`,
                 isPlaying: false
             },
             {
                 title: `Трек 3`,
                 author: `Автор 3`,
-                time: `6:00`,
+                time: `2:12`,
                 src: `../music/3.mp3`,
                 isPlaying: false
             }
@@ -39,17 +39,23 @@ let albums = [
             {
                 title: `Трек 1`,
                 author: `Автор 1`,
-                time: `6:00`
+                time: `1:30`,
+                src: `../music/1.mp3`,
+                isPlaying: false
             },
             {
                 title: `Трек 2`,
                 author: `Автор 2`,
-                time: `6:00`
+                time: `1:45`,
+                src: `../music/2.mp3`,
+                isPlaying: false
             },
             {
                 title: `Трек 3`,
                 author: `Автор 3`,
-                time: `6:00`
+                time: `2:12`,
+                src: `../music/3.mp3`,
+                isPlaying: false
             }
         ]
     },
@@ -63,17 +69,23 @@ let albums = [
             {
                 title: `Трек 1`,
                 author: `Автор 1`,
-                time: `6:00`
+                time: `1:30`,
+                src: `../music/1.mp3`,
+                isPlaying: false
             },
             {
                 title: `Трек 2`,
                 author: `Автор 2`,
-                time: `6:00`
+                time: `1:45`,
+                src: `../music/2.mp3`,
+                isPlaying: false
             },
             {
                 title: `Трек 3`,
                 author: `Автор 3`,
-                time: `6:00`
+                time: `2:12`,
+                src: `../music/3.mp3`,
+                isPlaying: false
             }
         ]
     },
@@ -87,17 +99,23 @@ let albums = [
             {
                 title: `Трек 1`,
                 author: `Автор 1`,
-                time: `6:00`
+                time: `1:30`,
+                src: `../music/1.mp3`,
+                isPlaying: false
             },
             {
                 title: `Трек 2`,
                 author: `Автор 2`,
-                time: `6:00`
+                time: `1:45`,
+                src: `../music/2.mp3`,
+                isPlaying: false
             },
             {
                 title: `Трек 3`,
                 author: `Автор 3`,
-                time: `6:00`
+                time: `2:12`,
+                src: `../music/3.mp3`,
+                isPlaying: false
             }
         ]
     }

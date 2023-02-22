@@ -93,9 +93,23 @@ main {
     display: block;
 }
 
+.progressCont {
+    height: 10px;
+    width: 120px;
+    border-radius: 20px;
+    background-color: #afafaf;
+}
+
+.progress {
+    height: 100%;
+    border-radius: 20px;
+    background-color: rgb(225, 255, 0);
+    width: 0%;
+}
+
+
 .lstGpMs {
     border-bottom: 1px solid #cacaca;
-
     display: flex;
     width: 500px;
     height: 50px;
@@ -117,8 +131,22 @@ main {
     box-shadow: 0 0 20px rgb(225, 255, 0);
 }
 
+.msinfprog {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+
+}
+
+.infauthprog {
+    word-wrap: break-word;
+    overflow-x: hidden;
+}
+
 .musicInfo {
-    margin-left: -300px;
+    word-wrap: break-word;
+    overflow-x: hidden;
 }
 
 .musicInfo>p {
@@ -241,6 +269,15 @@ main {
 
     .musicInfo {
         margin-left: -200px;
+    }
+
+    .msinfprog {
+        display: flex;
+        justify-content: flex-end;
+        width: 300px;
+        align-items: center;
+        gap: 10px;
+
     }
 
 }
